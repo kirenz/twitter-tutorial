@@ -4,7 +4,7 @@ In this tutorial, we'll cover how to get started with the Twitter API (v2).
 
 ---
 
-## Signing up with Twitter
+## Step 1: Signing up with Twitter
 
 First, you need a Twitter account. If you do not have one yet, you can sign up for one: [Twitter account](https://help.twitter.com/en/using-twitter/create-twitter-account)
 
@@ -13,7 +13,7 @@ First, you need a Twitter account. If you do not have one yet, you can sign up f
 
 ---
 
-## Developer account
+## Step 2: Get an developer account
 
 
 Next, sign up for a developer account: [Twitter developer account](https://developer.twitter.com/en/portal/petition/essential/basic-info). 
@@ -22,7 +22,8 @@ Next, sign up for a developer account: [Twitter developer account](https://devel
 ---
 
 
-### Create a new project
+### Step 3: Create a new project
+
 
 In the [developer portal](https://developer.twitter.com/en/portal/dashboard), create a new Project.
 
@@ -34,7 +35,7 @@ Give it a name, select the appropriate use-case, provide a project description.
 
 ---
 
-### Create an App
+### Step 4: Create an App
 
 
 Click `‘create a new App instead’`.
@@ -52,7 +53,7 @@ click on complete.
 
 ---
 
-### API Keys and Bearer Token
+### Step 5: Get API Keys and Bearer Token
 
 Once you click complete, you will get your API Keys and the Bearer Token that you can then use to connect to Twitter.
 
@@ -64,16 +65,11 @@ Once you click complete, you will get your API Keys and the Bearer Token that yo
 Click the (+) next to *API Key*, *API Secret Key* and *Bearer Token* and copy it in a safe place on your local machine. You will need them in on of the following steps. 
 
 
-*API Key and API secret key: Essentially the username and password for your App.* *Bearer token*: allows developers to have a more secure point of entry for using the Twitter APIs*
-
 
 ---
 
-### Access token and access token secret
+### Step 6: Get access token and access token secret
 
 Obtain the *access token* and *access token secret*: These can be generated in your [developer portal](https://developer.twitter.com/en/portal/projects-and-apps), under the `“Keys and tokens”` tab for your developer App.
 
 Add them to the file with your *API Key*, *API Secret Key* and *Bearer Token*.
-
-
-- *Access Token and access token secret: In general, Access Tokens represent the user that you are making the request on behalf of. The ones that you can generate via the developer portal represent the user that owns the App.* 
