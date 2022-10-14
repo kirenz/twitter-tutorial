@@ -1,28 +1,30 @@
 # Twitter setup
 
-In this tutorial, we'll cover the setup to get started with the Twitter API v2.
+In this tutorial, we'll cover how to get started with the Twitter API (v2).
 
+---
 
 ## Signing up with Twitter
 
-In order to get started with the Twitter API, you need a Twitter account. 
+First, you need a Twitter account. If you do not have one yet, you can sign up for one: [Twitter account](https://help.twitter.com/en/using-twitter/create-twitter-account)
 
-If you do not have one yet, you can sign up for one: [Twitter account](https://help.twitter.com/en/using-twitter/create-twitter-account)
 
+---
 
 ---
 
 ## Developer account
 
-Sign up for a developer account: [Twitter developer account](https://developer.twitter.com/en/portal/petition/essential/basic-info). 
+
+Next, sign up for a developer account: [Twitter developer account](https://developer.twitter.com/en/portal/petition/essential/basic-info). 
+
 
 ---
 
-## Create a Project and connect an App
 
 ### Create a new project
 
-Next, in the [developer portal](https://developer.twitter.com/en/portal/dashboard), create a new Project.
+In the [developer portal](https://developer.twitter.com/en/portal/dashboard), create a new Project.
 
 
 ![](https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/docs/new-project.png.twimg.1920.png)
@@ -30,6 +32,7 @@ Next, in the [developer portal](https://developer.twitter.com/en/portal/dashboar
 
 Give it a name, select the appropriate use-case, provide a project description. 
 
+---
 
 ### Create an App
 
@@ -47,25 +50,24 @@ Give your App a name in order to create a new App.
 click on complete.
 
 
+---
+
 ### API Keys and Bearer Token
 
-Once you click complete, you will get your API Keys and the Bearer Token that you can then use to connect to the new endpoints in the Twitter API v2.
+Once you click complete, you will get your API Keys and the Bearer Token that you can then use to connect to Twitter.
 
 
 ![](https://cdn.cms-twdigitalassets.com/content/dam/developer-twitter/docs/here-are-your-keys.png.twimg.1920.png)
 
+*Please note: The keys in the screenshot above are hidden, but in your own developer portal, you will be able to see the actual values for the API Key, API Secret Key and Bearer Token.*
 
-Click the (+) next to *API Key*, *API Secret Key* and *Bearer Token* and copy it in a safe place on your local machine.
+Click the (+) next to *API Key*, *API Secret Key* and *Bearer Token* and copy it in a safe place on your local machine. You will need them in on of the following steps. 
 
-You will need these to make the API calls in the next tutorial.
 
-:::{note}
-Please note: The keys in the screenshot above are hidden, but in your own developer portal, you will be able to see the actual values for the API Key, API Secret Key and Bearer Token.
-:::
+*API Key and API secret key: Essentially the username and password for your App.* *Bearer token*: allows developers to have a more secure point of entry for using the Twitter APIs*
 
-- *API Key and API secret key: Essentially the username and password for your App.*
 
-- *Bearer token*: allows developers to have a more secure point of entry for using the Twitter APIs*
+---
 
 ### Access token and access token secret
 
