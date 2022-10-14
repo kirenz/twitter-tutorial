@@ -12,6 +12,7 @@ In this tutorial you will learn how to setup Twitter to obtain tweets using the 
 
 - On your machine: unzip `twitter-tutorial` in a folder of your choice.
 
+- Open the file [README.md](README.md) in VS Code and proceed with the next step.
 
 ---
 
