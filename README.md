@@ -4,34 +4,21 @@ In this tutorial you will learn how to setup Twitter to obtain tweets using the 
 
 ---
 
-## Download this repo
-
-- Click on the green "Code" button at the top of this page
-
-- Choose `Download ZIP` 
-
-- On your machine: unzip `twitter-tutorial` in a folder of your choice.
-
-- Open the file [README.md](README.md) in VS Code and proceed with the next step.
-
----
 
 ## Twitter setup
 
 - Follow the instructions in the file [twitter-setup.md](twitter-setup.md).
 
-
----
-
-## Insert keys
-
-
-- Insert your Twitter keys in the Python file [`keys.py`](keys.py)
-
-
 ---
 
 ## Anaconda environment
+
+
+> On *Windows* open the Start menu and open the "Anaconda Command Prompt". 
+
+
+> On *macOS*: Open your terminal 
+
 
 Create a new Anaconda environment (we call it `twitter`):
 
@@ -45,11 +32,39 @@ Activate the environment:
 conda activate twitter
 ```
 
+## Download repo and open VS Code
+
+- Click on the green "Code" button at the top of this page
+
+- Choose `Download ZIP` 
+
+- On your machine: unzip `twitter-tutorial` in a folder of your choice.
+
+- Start VS Code and open the folder `twitter-tutorial` with "Open Folder":
+
+
+![](../img/vscode.png)
+
+
+- Proceed with the next step
+
+---
+
+
+## Insert keys
+
+
+- In your VS Code Explorer, open the file `keys.py`
+
+
+- Insert your Twitter keys in the Python file [`keys.py`](keys.py)
+
+
 ---
 
 ## Tweepy
 
-Open the file [`tweepy-setup.ipynb`](tweepy-setup.ipynb) in VS Code.
+- In your VS Code Explorer, open the file [`tweepy-setup.ipynb`](tweepy-setup.ipynb)
 
 
 ---
