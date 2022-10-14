@@ -1,6 +1,8 @@
 # Twitter tutorial
 
-In this tutorial you will learn how to setup  Twitter to obtain tweets using the Python library tweepy.
+In this tutorial you will learn how to setup Twitter to obtain tweets using the Python library tweepy.
+
+---
 
 ## Download this repo
 
@@ -11,14 +13,22 @@ In this tutorial you will learn how to setup  Twitter to obtain tweets using the
 - On your machine: unzip `twitter-tutorial` in a folder of your choice.
 
 
+---
+
 ## Twitter setup
 
-Follow the instructions in [this tutorial](twitter-setup.md).
+- Follow the instructions in the file [twitter-setup.md](twitter-setup.md).
 
+
+---
 
 ## Insert keys
 
-Insert your keys in the Python file [`keys.py`](keys.py)
+
+- Insert your Twitter keys in the Python file [`keys.py`](keys.py)
+
+
+---
 
 ## Anaconda environment
 
@@ -34,6 +44,11 @@ Activate the environment:
 conda activate twitter
 ```
 
+---
+
 ## Tweepy
 
 Open the file [`tweepy-setup.ipynb`](tweepy-setup.ipynb) in VS Code.
+
+
+---
