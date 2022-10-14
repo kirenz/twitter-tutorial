@@ -5,13 +5,13 @@ In this tutorial you will learn how to setup Twitter to obtain tweets using the 
 ---
 
 
-## Twitter setup
+## Step 1: Twitter setup
 
 - Follow the instructions in the file [twitter-setup.md](twitter-setup.md).
 
 ---
 
-## Anaconda environment
+## Step 2: Create Anaconda environment
 
 
 > On *Windows* open the Start menu and open the "Anaconda Command Prompt". 
@@ -32,7 +32,7 @@ Activate the environment:
 conda activate twitter
 ```
 
-## Download repo and open VS Code
+## Step 3: Download repo and open VS Code
 
 - Click on the green "Code" button at the top of this page
 
@@ -43,15 +43,16 @@ conda activate twitter
 - Start VS Code and open the folder `twitter-tutorial` with "Open Folder":
 
 
-![](../img/vscode.png)
+![](/img/vscode.png)
 
+- This opens the VS Code Explorer und you should see all files in `twitter-tutorial`
 
 - Proceed with the next step
 
 ---
 
 
-## Insert keys
+## Step 4: Insert Twitter keys in keys.py
 
 
 - In your VS Code Explorer, open the file `keys.py`
@@ -62,7 +63,7 @@ conda activate twitter
 
 ---
 
-## Tweepy
+## Step 5: Use tweepy to obtain some tweets
 
 - In your VS Code Explorer, open the file [`tweepy-setup.ipynb`](tweepy-setup.ipynb)
 
