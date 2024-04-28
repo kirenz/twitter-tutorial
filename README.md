@@ -47,7 +47,6 @@ pip install 'tweepy[async]' pandas altair jupyter ipykernel
 ```
 
 
-
 ## Step 3: Download repo and open VS Code
 
 - Click on the green "Code" button at the top of this page
