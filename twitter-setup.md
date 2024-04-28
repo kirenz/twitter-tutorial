@@ -64,12 +64,14 @@ Once you click complete, you will get your API Keys and the Bearer Token that yo
 
 Click the (+) next to *API Key*, *API Secret Key* and *Bearer Token* and copy it in a safe place on your local machine. You will need them in on of the following steps. 
 
-
+Click on "App-Settings".
 
 ---
 
 ### Step 6: Get access token and access token secret
 
-Obtain the *access token* and *access token secret*: These can be generated in your [developer portal](https://developer.twitter.com/en/portal/projects-and-apps), under the `“Keys and tokens”` tab for your developer App.
+Obtain the *Access Token* and *Access Token Secret*: These can be generated in your [developer portal](https://developer.twitter.com/en/portal/projects-and-apps), under the `“Keys and tokens”` tab for your developer App.
+
+Click on Generate.
 
 Add them to the file with your *API Key*, *API Secret Key* and *Bearer Token*.
