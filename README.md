@@ -23,14 +23,20 @@ In this tutorial you will learn how to setup Twitter to obtain tweets using the 
 Create a new Anaconda environment (we call it `twitter`):
 
 ```bash
-conda create -n twitter python=3.9 pip tweepy pandas altair jupyter --y
+conda create -n twitter python=3.11 pip --y
 ```
+
 
 Activate the environment: 
 
 ```
 conda activate twitter
 ```
+
+```bash
+pip install tweepy[async] pandas altair jupyter
+```
+
 
 ## Step 3: Download repo and open VS Code
 
