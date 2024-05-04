@@ -36,16 +36,18 @@ conda activate twitter
 Install some packages:
 
 ```bash
-pip install tweepy[async] pandas altair jupyter ipykernel
+pip install tweepy pandas altair jupyter ipykernel
 ```
 
-- For Mac-users: If you get this error: `zsh: no matches found: tweepy[async]` try this code instead:
+<!-- - For Mac-users: If you get this error: `zsh: no matches found: tweepy[async]` try this code instead: 
+
 
 
 ```bash
 pip install 'tweepy[async]' pandas altair jupyter ipykernel
 ```
 
+-->
 
 ## Step 3: Download repo and open VS Code
 
